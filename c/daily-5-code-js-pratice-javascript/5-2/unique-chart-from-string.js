@@ -6,4 +6,4 @@ function uniqueFromString(InputString) {
   }
   return resString;
 }
-uniqueFromString("anjali");
+console.log(uniqueFromString("anjali"));
