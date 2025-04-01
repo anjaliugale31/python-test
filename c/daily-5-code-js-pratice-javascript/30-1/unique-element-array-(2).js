@@ -8,3 +8,9 @@ function unquieValesArray(arrayVal) {
   return temp;
 }
 unquieValesArray([1, 2, 3, 3, 4, 5, 5, 4, 5, 5]);
+
+function uni(val){
+  return [...new Set(val)]
+}
+
+console.log(uni([3,4,3,3,3,3,4]))

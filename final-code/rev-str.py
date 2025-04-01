@@ -37,3 +37,24 @@ def revstr(text):
         res+=text[i]
     return res
 print(revstr('jsnh'))
+
+
+
+
+
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("Try programiz.pro")
+
+def uni_sub(inp, t):
+    res=[]
+    for s in range(len(inp)):
+        sum_sub=0
+        for j in range(s,len(inp)):
+            sum_sub+=inp[j]
+            if sum_sub==t:
+                res.append(inp[s:j+1])
+                
+    return res
+    
+print(uni_sub([2,7,11,15], 17))
